@@ -1,0 +1,6 @@
+c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\bin\Debug\EmailMonitorService.exe.config
+c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\bin\Debug\EmailMonitorService.exe
+c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\bin\Debug\EmailMonitorService.pdb
+c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.csprojResolveAssemblyReference.cache
+c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.exe
+c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.pdb
