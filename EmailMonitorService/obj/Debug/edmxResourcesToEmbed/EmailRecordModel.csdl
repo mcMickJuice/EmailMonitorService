@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PrimaryModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PrimaryEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="EmailRecords" EntityType="PrimaryModel.EmailRecord" />
+  </EntityContainer>
+  <EntityType Name="EmailRecord">
+    <Key>
+      <PropertyRef Name="EmailRecordID" />
+    </Key>
+    <Property Name="EmailRecordID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="EmailSubject" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Body" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Source" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SentDate" Type="DateTime" Precision="3" />
+    <Property Name="IsSent" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>

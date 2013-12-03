@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PrimaryModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PrimaryModelStoreContainer">
+    <EntitySet Name="EmailRecord" EntityType="PrimaryModel.Store.EmailRecord" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="EmailRecord">
+    <Key>
+      <PropertyRef Name="EmailRecordID" />
+    </Key>
+    <Property Name="EmailRecordID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmailSubject" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Body" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Source" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="SentDate" Type="datetime" />
+    <Property Name="IsSent" Type="bit" Nullable="false" />
+  </EntityType>
+</Schema>

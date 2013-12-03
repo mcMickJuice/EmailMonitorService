@@ -14,18 +14,12 @@ namespace EmailMonitorService
         /// </summary>
         static void Main()
         {
-            //ServiceBase[] ServicesToRun;
-            //ServicesToRun = new ServiceBase[] 
-            //{ 
-            //    new Service1() 
-            //};
-            //ServiceBase.Run(ServicesToRun);
-
-            var mailClient = new EmailClient();
-
-            mailClient.SendMail("mjoyce@forthrightsolutions.com", "mikejoyce19@gmail.com","This is a test", "Testing testing testing");
-
-            Console.ReadKey();
+            ServiceBase[] ServicesToRun;
+            ServicesToRun = new ServiceBase[] 
+            { 
+                new Service1() 
+            };
+            ServiceBase.Run(ServicesToRun);
         }
     }
 }

@@ -4,3 +4,16 @@ c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailM
 c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.csprojResolveAssemblyReference.cache
 c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.exe
 c:\users\mjoyce\documents\visual studio 2012\Projects\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.pdb
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\bin\Debug\EmailMonitorService.exe.config
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.exe
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.pdb
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\bin\Debug\EmailMonitorService.exe
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\bin\Debug\EmailMonitorService.pdb
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.csprojResolveAssemblyReference.cache
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\bin\Debug\EntityFramework.dll
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\bin\Debug\EntityFramework.SqlServer.dll
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\bin\Debug\EntityFramework.xml
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\bin\Debug\EntityFramework.SqlServer.xml
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\bin\Debug\App.config
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.ProjectInstaller.resources
+M:\My Documents\GitHub\EmailMonitorService\EmailMonitorService\obj\Debug\EmailMonitorService.csproj.GenerateResource.Cache

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PrimaryModelStoreContainer" CdmEntityContainer="PrimaryEntities">
+    <EntitySetMapping Name="EmailRecords">
+      <EntityTypeMapping TypeName="PrimaryModel.EmailRecord">
+        <MappingFragment StoreEntitySet="EmailRecord">
+          <ScalarProperty Name="EmailRecordID" ColumnName="EmailRecordID" />
+          <ScalarProperty Name="EmailSubject" ColumnName="EmailSubject" />
+          <ScalarProperty Name="Body" ColumnName="Body" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="SentDate" ColumnName="SentDate" />
+          <ScalarProperty Name="IsSent" ColumnName="IsSent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
